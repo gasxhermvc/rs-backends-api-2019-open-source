@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "T2.Business_Layer", "T2.Business_Layer", "{A8668E54-B040-418D-BA61-F94CEF52AA60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "T1.DAL_Layer", "T1.DAL_Layer", "{8C14FB2A-9113-4F86-B377-B65565E97D0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "T3.API", "T3.API", "{A36A1DE5-745C-450C-817A-2D7DA72630D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rs_backends_api_2019.Presentation", "rs_backends_api_2019.Presentation\rs_backends_api_2019.Presentation.csproj", "{5632B185-EAB2-4881-B01A-C85F4070E5B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{59C308E8-2DB7-4C2F-B70C-28029BC30EF9} = {59C308E8-2DB7-4C2F-B70C-28029BC30EF9}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rs_backends_api_2019.Business", "rs_backends_api_2019.Business\rs_backends_api_2019.Business.csproj", "{59C308E8-2DB7-4C2F-B70C-28029BC30EF9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{817C83E8-21BF-4A02-86B4-AD644069F4FE} = {817C83E8-21BF-4A02-86B4-AD644069F4FE}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rs_backends_api_2019.DAL", "rs_backends_api_2019.DAL\rs_backends_api_2019.DAL.csproj", "{817C83E8-21BF-4A02-86B4-AD644069F4FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5632B185-EAB2-4881-B01A-C85F4070E5B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5632B185-EAB2-4881-B01A-C85F4070E5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5632B185-EAB2-4881-B01A-C85F4070E5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5632B185-EAB2-4881-B01A-C85F4070E5B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59C308E8-2DB7-4C2F-B70C-28029BC30EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C308E8-2DB7-4C2F-B70C-28029BC30EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C308E8-2DB7-4C2F-B70C-28029BC30EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C308E8-2DB7-4C2F-B70C-28029BC30EF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{817C83E8-21BF-4A02-86B4-AD644069F4FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{817C83E8-21BF-4A02-86B4-AD644069F4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{817C83E8-21BF-4A02-86B4-AD644069F4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{817C83E8-21BF-4A02-86B4-AD644069F4FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5632B185-EAB2-4881-B01A-C85F4070E5B2} = {A36A1DE5-745C-450C-817A-2D7DA72630D2}
+		{59C308E8-2DB7-4C2F-B70C-28029BC30EF9} = {A8668E54-B040-418D-BA61-F94CEF52AA60}
+		{817C83E8-21BF-4A02-86B4-AD644069F4FE} = {8C14FB2A-9113-4F86-B377-B65565E97D0C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D4FD1B4-F821-43FF-9D2C-960EE7A523A3}
+	EndGlobalSection
+EndGlobal

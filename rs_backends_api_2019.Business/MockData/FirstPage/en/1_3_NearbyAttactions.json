@@ -1,0 +1,166 @@
+{
+  "title": "ดึงข้อมูลแหล่งท่องเที่ยวใกล้ผู้ใช้งาน",
+  "lang": "en",
+  "count": 10,
+  "total": 30,
+  "attactions": [
+    {
+      "company_id": {
+        "th": 1,
+        "en": 3
+      },
+      "meta_id": 1,
+      "title": {
+        "th": "....",
+        "en": "...."
+      },
+      "address": "...",
+      "image": "...",
+      "icon": "...",
+      "content": "...",
+      "ratings": 4,
+      "comments": 3,
+      "reviews": 7,
+      "viewer": 23
+    },
+    {
+      "company_id": {
+        "th": 1,
+        "en": 3
+      },
+      "meta_id": 1,
+      "title": "...",
+      "address": "...",
+      "image": "...",
+      "icon": "...",
+      "content": "...",
+      "ratings": 4,
+      "comments": 3,
+      "reviews": 7,
+      "viewer": 23
+    },
+    {
+      "company_id": {
+        "th": 1,
+        "en": 3
+      },
+      "meta_id": 1,
+      "title": "...",
+      "address": "...",
+      "image": "...",
+      "icon": "...",
+      "content": "...",
+      "ratings": 4,
+      "comments": 3,
+      "reviews": 7,
+      "viewer": 23
+    },
+    {
+      "company_id": {
+        "th": 1,
+        "en": 3
+      },
+      "meta_id": 1,
+      "title": "...",
+      "address": "...",
+      "image": "...",
+      "icon": "...",
+      "content": "...",
+      "ratings": 4,
+      "comments": 3,
+      "reviews": 7,
+      "viewer": 23
+    },
+    {
+      "company_id": {
+        "th": 1,
+        "en": 3
+      },
+      "meta_id": 1,
+      "title": "...",
+      "address": "...",
+      "image": "...",
+      "icon": "...",
+      "content": "...",
+      "ratings": 4,
+      "comments": 3,
+      "reviews": 7,
+      "viewer": 23
+    },
+    {
+      "company_id": {
+        "th": 1,
+        "en": 3
+      },
+      "meta_id": 1,
+      "title": "...",
+      "address": "...",
+      "image": "...",
+      "icon": "...",
+      "content": "...",
+      "ratings": 4,
+      "comments": 3,
+      "reviews": 7,
+      "viewer": 23
+    },
+    {
+      "company_id": {
+        "th": 1,
+        "en": 3
+      },
+      "meta_id": 1,
+      "title": "...",
+      "address": "...",
+      "image": "...",
+      "icon": "...",
+      "content": "...",
+      "ratings": 4,
+      "comments": 3,
+      "reviews": 7,
+      "viewer": 23
+    },
+    {
+      "company_id": {
+        "th": 1,
+        "en": 3
+      },
+      "meta_id": 1,
+      "title": "...",
+      "address": "...",
+      "image": "...",
+      "icon": "...",
+      "content": "...",
+      "ratings": 4,
+      "comments": 3,
+      "reviews": 7,
+      "viewer": 23
+    },
+    {
+      "title": "...",
+      "address": "...",
+      "image": "...",
+      "icon": "...",
+      "content": "...",
+      "ratings": 4,
+      "comments": 3,
+      "reviews": 7,
+      "viewer": 23
+    },
+    {
+      "company_id": {
+        "th": 1,
+        "en": 3
+      },
+      "meta_id": 1,
+      "title": "...",
+      "address": "...",
+      "image": "...",
+      "icon": "...",
+      "content": "...",
+      "ratings": 4,
+      "comments": 3,
+      "reviews": 7,
+      "viewer": 23
+    }
+  ]
+}

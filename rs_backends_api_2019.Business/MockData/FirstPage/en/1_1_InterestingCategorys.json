@@ -1,0 +1,53 @@
+{
+  "title": "ดึงหมวดหมู่ที่น่าสนใจ",
+  "lang": "en",
+  "count": 5,
+  "total": 10,
+  "categorys": [
+    {
+      "serviceId": 1,
+      "serviceName": {
+        "th": "โรงพยาบาล",
+        "en": "hotpital"
+      },
+      "image": "....",
+      "icon": "...."
+    },
+    {
+      "serviceId": 2,
+      "serviceName": {
+        "th": "สถานที่ท่องเที่ยวทางทะเล-ทะเล-ชายหาด",
+        "en": "sea"
+      },
+      "image": "...",
+      "icon": "...."
+    },
+    {
+      "serviceId": 3,
+      "serviceName": {
+        "th": "อุทยาน-วนอุทยาน-สวนป่า",
+        "en": "..."
+      },
+      "image": "....",
+      "icon": "...."
+    },
+    {
+      "serviceId": 4,
+      "serviceName": {
+        "th": "วัด-สถานปฏิบัติสมาธิ",
+        "en": "..."
+      },
+      "image": "....",
+      "icon": "...."
+    },
+    {
+      "serviceId": 5,
+      "serviceName": {
+        "th": "สปา-นวด-ฟิตเนส",
+        "en": "..."
+      },
+      "image": "....",
+      "icon": "...."
+    }
+  ]
+}

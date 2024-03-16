@@ -1,0 +1,68 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Core" Version="1.6.0" />
+    <PackageReference Include="DinkToPdf" Version="1.0.8" />
+    <PackageReference Include="EPPlus.Core" Version="1.5.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.5.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Exports\" />
+    <Folder Include="Helpers\ExportExcelHelper\Exports\" />
+    <Folder Include="Interfaces\V1.1\" />
+    <Folder Include="Models\Mock\Resources\" />
+    <Folder Include="Models\Mock\Responses\" />
+    <Folder Include="Models\V1.1\Parameters\" />
+    <Folder Include="Models\V1.1\Resources\" />
+    <Folder Include="Models\V1.1\Responses\" />
+    <Folder Include="Services\Defaults\" />
+    <Folder Include="Services\V1.1\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\e_exam_backend_api_guide_2019.DAL\rs_backends_api_2019.DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="MockData\FirstPage\en\1_1_InterestingCategorys.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="MockData\FirstPage\en\1_2_InterestingLandmark.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="MockData\FirstPage\en\1_3_NearbyAttactions.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="MockData\FirstPage\en\1_4_InterestingEvents.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="MockData\FirstPage\en\1_5_InterestingTips.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="MockData\FirstPage\th\1_1_InterestingCategorys.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="MockData\FirstPage\th\1_2_InterestingLandmark.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="MockData\FirstPage\th\1_3_NearbyAttactions.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="MockData\FirstPage\th\1_4_InterestingEvents.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="MockData\FirstPage\th\1_5_InterestingTips.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
